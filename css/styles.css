@@ -77,6 +77,8 @@
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
+  background-color: #2f303a;
 }
 .button {
   background-color: var(--accent-color);
@@ -136,7 +138,7 @@
 }
 
 .footer .link {
-  color: var(--primary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
