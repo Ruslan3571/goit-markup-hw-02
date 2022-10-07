@@ -16,7 +16,7 @@
   font-size: 14px;
   /* font-weight:400,500,700,900 */
 }
-header {
+.header {
   background: #ffffff;
 }
 .logo-blue {
@@ -124,7 +124,7 @@ header {
   line-height: 1.19;
   text-align: center;
 }
-footer {
+.footer {
   background: #2f303a;
 }
 .contacts-nav .link.text-footer {
@@ -132,17 +132,16 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-}
-
-address {
   font-style: normal;
 }
+
 .footer .link {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Портфоліо */
