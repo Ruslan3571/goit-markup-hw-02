@@ -16,15 +16,33 @@
   font-size: 14px;
   /* font-weight:400,500,700,900 */
 }
+header {
+  background: #ffffff;
+}
 .logo-blue {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .logo-black {
-  color: var(--black-color);
+  color: #000000;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-white {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .site-nav .link {
@@ -32,6 +50,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -46,6 +65,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
@@ -104,18 +124,25 @@
   line-height: 1.19;
   text-align: center;
 }
-
-.contacts-nav .text-footer {
+footer {
+  background: #2f303a;
+}
+.contacts-nav .link.text-footer {
   color: var(--white-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
-.contacts-nav .footer {
+
+address {
+  font-style: normal;
+}
+.footer .link {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 
 /* Портфоліо */
@@ -146,5 +173,5 @@
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 5;
+  line-height: 1.88;
 }
